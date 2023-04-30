@@ -50,6 +50,12 @@ article:has(h2) {
   color: rgba(0, 37, 28, 0.99);
 }
 
+article:has(h2):hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  color: rgba(0, 37, 28, 0.99);
+  transition: all 0.5s ease-out;
+}
+
 header > img {
   display: block;
   margin-left: auto;
@@ -62,6 +68,7 @@ h2 ~ img {
   margin-right: auto;
   max-width: 70%;
   border-radius: 0.5rem;
+  transition: all 0.5s ease-out;
 }
 h2 ~ img:hover {
   display: block;
