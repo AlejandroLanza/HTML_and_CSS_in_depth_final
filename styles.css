@@ -21,6 +21,7 @@ h1 {
 h2 {
   font-size: 2rem;
   padding: 20px;
+  min-height: 5rem;
 }
 
 p {
@@ -51,8 +52,8 @@ article:has(h2) {
 }
 
 article:has(h2):hover {
-  background-color: rgba(0, 0, 0, 0.02);
-  color: rgba(0, 37, 28, 0.99);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(224, 251, 245, 0.99);
   transition: all 0.5s ease-out;
 }
 
@@ -137,4 +138,12 @@ footer {
 
 footer div {
   flex: 1;
+  padding: 40px;
+}
+
+footer div p {
+  font-size: 1rem;
+  text-align: right;
+  border-top: solid gray;
+  color: rgb(0, 50, 38);
 }
